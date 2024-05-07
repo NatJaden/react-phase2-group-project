@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import SearchBar from './components/SearchBar';
+import { CocktailDetails } from './components/CocktailCard';
+import CocktailList from './components/CocktailList';
+import CocktailCard from './components/CocktailCard';
 
 const App = () => {
   const [cocktails, setCocktails] = useState([]);
@@ -33,4 +36,14 @@ const App = () => {
   );
 };
 
+  function App() {
+    return (
+      <div className="App">
+        <CocktailList />
+        <CocktailCard />
+        <CocktailDetails />
+      </div>
+    );
+  }
 export default App;
+
