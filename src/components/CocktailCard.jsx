@@ -2,12 +2,21 @@ import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 function CocktailCard({ id, name, ingredients, image }) {
+  const [showIngredients, setShowIngredients] = useState(false);
+
   return (
     <div className="card">
       <h3>{name}</h3>
-      <p>Ingredients: {ingredients.join(', ')}</p>
       <img src={image} alt="Cocktail" />
-      <Link to={`/cocktail/${id}`}>Details</Link>
+      <button onClick={() => setShowIngredients(!showIngredients)}>
+        {showIngredients ? 'Hide Ingredients' : 'Show Ingredients'}
+      </button>
+      {showIngredients && (
+        <div>
+          <p>Ingredients: {ingredients.join(', ')}</p>
+        </div>
+      )}
+      <Link to={`/${id}`}>Details</Link>
     </div>
   );
 }
@@ -17,23 +26,19 @@ export function CocktailDetails() {
   const [cocktail, setCocktail] = useState(null);
 
   useEffect(() => {
-    fetch(`https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`)
+    fetch(`/${id}`) 
       .then(response => response.json())
-      .then(data => setCocktail(data.drinks[0]))
+      .then(data => setCocktail(data))
       .catch(error => console.log(error));
   }, [id]);
 
   if (!cocktail) return <div>Loading...</div>;
 
-  const ingredients = Object.keys(cocktail)
-    .filter(key => key.startsWith('strIngredient') && cocktail[key])
-    .map(key => cocktail[key]);
-
   return (
     <div>
-      <h2>{cocktail.strDrink}</h2>
-      <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
-      <p>Ingredients: {ingredients.join(', ')}</p>
+      <h2>{cocktail.name}</h2>
+      <img src={cocktail.image} alt={cocktail.name} />
+      <p>Ingredients: {cocktail.ingredients.join(', ')}</p>
     </div>
   );
 }
