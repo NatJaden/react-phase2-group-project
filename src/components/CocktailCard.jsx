@@ -16,7 +16,7 @@ function CocktailCard({ id, name, ingredients, image }) {
           <p>Ingredients: {ingredients.join(', ')}</p>
         </div>
       )}
-      <Link to={`/${id}`}>Details</Link>
+      {/* <Link to={`http://localhost:3000/cocktails/${id}`}>Details</Link> */}
     </div>
   );
 }
@@ -26,7 +26,7 @@ export function CocktailDetails() {
   const [cocktail, setCocktail] = useState(null);
 
   useEffect(() => {
-    fetch(`/${id}`) 
+    fetch(`http://localhost:3000/cocktails/${id}`) 
       .then(response => response.json())
       .then(data => setCocktail(data))
       .catch(error => console.log(error));

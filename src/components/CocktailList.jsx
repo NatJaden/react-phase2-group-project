@@ -5,7 +5,7 @@ function CocktailList() {
   const [cocktails, setCocktails] = useState([]);
 
   useEffect(() => {
-    fetch('') 
+    fetch('http://localhost:3000/cocktails') 
       .then(response => response.json())
       .then(data => setCocktails(data))
       .catch(error => console.log(error));
