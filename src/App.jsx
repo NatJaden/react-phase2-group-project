@@ -11,7 +11,7 @@ const App = () => {
         throw new Error('Failed to fetch data');
       }
       const data = await response.json();
-      setCocktails(data);
+      setCocktails(data.drinks);
     } catch (error) {
       console.error('Error fetching cocktails:', error);
     }
@@ -21,12 +21,16 @@ const App = () => {
     <div>
       <h1>Cocktail App</h1>
       <SearchBar onSearch={searchCocktails} />
-      {/* Display cocktails */}
+      <div>
+        <h2>Results:</h2>
+        <ul>
+          {cocktails.map(cocktail => (
+            <li key={cocktail.idDrink}>{cocktail.strDrink}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
 
 export default App;
-
-
-
