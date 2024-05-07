@@ -1,16 +1,28 @@
-
-import React from 'react';
+import React, { useState } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import UserProfile from './pages/UserProfile';
 import SearchBar from './components/SearchBar';
-import { CocktailDetails } from './components/CocktailCard';
 import CocktailList from './components/CocktailList';
-import CocktailCard from './components/CocktailCard';
 
 function App() {
+  const [cocktails, setCocktails] = useState([]);
+
+  const searchCocktails = async (query) => {
+    try {
+      const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=/${query}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch data');
+      }
+      const data = await response.json();
+      setCocktails(data.drinks);
+    } catch (error) {
+      console.error('Error fetching cocktails:', error);
+    }
+  };
+
   const router = createBrowserRouter([
     {
       path: '/',
@@ -35,17 +47,6 @@ function App() {
       ),
     },
     {
-      path: '/create',
-      element: (
-        <div className="dashboard">
-          <NavBar />
-          <div className="content">
-            <CreateCocktail />
-          </div>
-        </div>
-      ),
-    },
-    {
       path: '/profile',
       element: (
         <div className="dashboard">
@@ -56,41 +57,24 @@ function App() {
         </div>
       ),
     },
+
   ]);
-
-  return <RouterProvider router={router} />;
-}
-
-const App = () => {
-  const [cocktails, setCocktails] = useState([]);
-
-  const searchCocktails = async (query) => {
-    try {
-      const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`);
-      if (!response.ok) {
-        throw new Error('Failed to fetch data');
-      }
-      const data = await response.json();
-      setCocktails(data.drinks);
-    } catch (error) {
-      console.error('Error fetching cocktails:', error);
-    }
-  };
 
   return (
     <div>
+      <RouterProvider router={router} />
       <h1>Cocktail App</h1>
       <SearchBar onSearch={searchCocktails} />
       <div>
         <h2>Results:</h2>
         <ul>
-          {cocktails.map(cocktail => (
+          {cocktails && cocktails.map(cocktail => (
             <li key={cocktail.idDrink}>{cocktail.strDrink}</li>
           ))}
         </ul>
       </div>
     </div>
   );
-};
+}
 
 export default App;
