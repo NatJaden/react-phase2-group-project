@@ -1,8 +1,65 @@
-import React, { useState } from 'react';
+
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './App.css';
+import NavBar from './components/NavBar';
+import HomePage from './pages/HomePage';
+import UserProfile from './pages/UserProfile';
 import SearchBar from './components/SearchBar';
 import { CocktailDetails } from './components/CocktailCard';
 import CocktailList from './components/CocktailList';
 import CocktailCard from './components/CocktailCard';
+
+function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: (
+        <div className="dashboard">
+          <NavBar />
+          <div className="content">
+            <HomePage />
+          </div>
+        </div>
+      ),
+    },
+    {
+      path: '/cocktail',
+      element: (
+        <div className="dashboard">
+          <NavBar />
+          <div className="content">
+            <CocktailList />
+          </div>
+        </div>
+      ),
+    },
+    {
+      path: '/create',
+      element: (
+        <div className="dashboard">
+          <NavBar />
+          <div className="content">
+            <CreateCocktail />
+          </div>
+        </div>
+      ),
+    },
+    {
+      path: '/profile',
+      element: (
+        <div className="dashboard">
+          <NavBar />
+          <div className="content">
+            <UserProfile />
+          </div>
+        </div>
+      ),
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
+}
 
 const App = () => {
   const [cocktails, setCocktails] = useState([]);
@@ -36,14 +93,4 @@ const App = () => {
   );
 };
 
-  function App() {
-    return (
-      <div className="App">
-        <CocktailList />
-        <CocktailCard />
-        <CocktailDetails />
-      </div>
-    );
-  }
 export default App;
-
