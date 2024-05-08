@@ -3,13 +3,14 @@ import React, { useState } from 'react';
 function Form() {
   const [name, setName] = useState('');
   const [ingredients, setIngredients] = useState('');
+  const [imageUrl, setImageUrl] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const configObj = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, ingredients: ingredients.split(',') })
+      body: JSON.stringify({ name, ingredients: ingredients.split(','), imageUrl })
     };
 
     fetch('http://localhost:3001/cocktails', configObj)
@@ -18,6 +19,7 @@ function Form() {
         console.log(data);
         setName('');
         setIngredients('');
+        setImageUrl('');
       })
       .catch(error => console.log(error));
   };
@@ -25,7 +27,8 @@ function Form() {
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" placeholder="Name" value={name} onChange={e => setName(e.target.value)} />
-      <input type="text" placeholder="Ingredients (comma separated)" value={ingredients} onChange={e => setIngredients(e.target.value)} />
+      <input type="text" placeholder="Ingredients" value={ingredients} onChange={e => setIngredients(e.target.value)} />
+      <input type="text" placeholder="Image URL" value={imageUrl} onChange={e => setImageUrl(e.target.value)} />
       <button type="submit">Add Cocktail</button>
     </form>
   );
