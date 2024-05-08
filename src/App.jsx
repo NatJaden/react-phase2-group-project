@@ -12,12 +12,12 @@ function App() {
 
   const searchCocktails = async (query) => {
     try {
-      const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=/${query}`);
+      const response = await fetch(`http://localhost:3000/cocktails?q=${query}`);
       if (!response.ok) {
         throw new Error('Failed to fetch data');
       }
       const data = await response.json();
-      setCocktails(data.drinks);
+      setCocktails(data); 
     } catch (error) {
       console.error('Error fetching cocktails:', error);
     }
@@ -69,7 +69,7 @@ function App() {
         <h2>Results:</h2>
         <ul>
           {cocktails && cocktails.map(cocktail => (
-            <li key={cocktail.idDrink}>{cocktail.strDrink}</li>
+            <li key={cocktail.id}>{cocktail.name}</li>
           ))}
         </ul>
       </div>

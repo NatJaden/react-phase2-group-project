@@ -1,29 +1,42 @@
 {
-    "cocktails": [
-      {
-        "id": 1,
-        "name": "Mojito",
-        "ingredients": ["Rum", "Mint", "Lime", "Sugar", "Soda Water"],
-        "image": "https://www.thecocktaildb.com/images/media/drink/ttss031563199312.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Martini",
-        "ingredients": ["Gin", "Vermouth", "Olives"],
-        "image": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Daiquiri",
-        "ingredients": ["Rum", "Lime Juice", "Simple Syrup"],
-        "image": "https://www.thecocktaildb.com/images/media/drink/usuuur1439906797.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Margarita",
-        "ingredients": ["Tequila", "Triple Sec", "Lime Juice", "Salt"],
-        "image": "https://www.thecocktaildb.com/images/media/drink/wpxpvu1439905379.jpg"
-      }
-    ]
-  }
+  "cocktails": [
+    {
+      "id": 1,
+      "name": "Mojito",
+      "ingredients": ["Rum", "Mint", "Lime", "Sugar", "Soda Water"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/ttss031563199312.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Martini",
+      "ingredients": ["Gin", "Vermouth", "Olives"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/71t8581504353095.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Daiquiri",
+      "ingredients": ["Rum", "Lime Juice", "Simple Syrup"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/usuuur1439906797.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Margarita",
+      "ingredients": ["Tequila", "Triple Sec", "Lime Juice", "Salt"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/wpxpvu1439905379.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cosmopolitan",
+      "ingredients": ["Vodka", "Triple Sec", "Cranberry Juice", "Lime Juice"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Negroni",
+      "ingredients": ["Gin", "Campari", "Sweet Vermouth", "Orange"],
+      "image": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg"
+    }
+  ]
+}
+
   
