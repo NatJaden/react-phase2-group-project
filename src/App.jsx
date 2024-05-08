@@ -3,7 +3,6 @@ import { CocktailDetails } from './components/CocktailCard';
 import CocktailList from './components/CocktailList';
 import CocktailCard from './components/CocktailCard';
 
-
   function App() {
     return (
       <div className="App">
@@ -14,4 +13,3 @@ import CocktailCard from './components/CocktailCard';
     );
   }
 export default App;
-
