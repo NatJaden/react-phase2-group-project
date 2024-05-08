@@ -42,7 +42,6 @@ export function CocktailDetails() {
     })
     .then(response => {
       if (response.ok) {
-        // Remove the deleted cocktail from the UI or perform any necessary update
         console.log('Cocktail deleted successfully');
       } else {
         console.error('Failed to delete cocktail');
