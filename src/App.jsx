@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import UserProfile from './pages/UserProfile';
 import SearchBar from './components/SearchBar';
 import CocktailList from './components/CocktailList';
+import Form from './components/Form'
 
 function App() {
   const [cocktails, setCocktails] = useState([]);
@@ -53,6 +54,17 @@ function App() {
           <NavBar />
           <div className="content">
             <UserProfile />
+          </div>
+        </div>
+      ),
+    },
+    {
+      path: '/create',
+      element: (
+        <div className="dashboard">
+          <NavBar />
+          <div className="content">
+            <Form />
           </div>
         </div>
       ),
