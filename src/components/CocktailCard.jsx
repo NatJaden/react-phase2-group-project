@@ -16,7 +16,6 @@ function CocktailCard({ id, name, ingredients, image }) {
           <p>Ingredients: {ingredients.join(', ')}</p>
         </div>
       )}
-      {/* <Link to={`http://localhost:3000/cocktails/${id}`}>Details</Link> */}
     </div>
   );
 }
