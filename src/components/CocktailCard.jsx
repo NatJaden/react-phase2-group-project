@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
-function CocktailCard({ id, name, ingredients, image }) {
+function CocktailCard({ id, name, ingredients, image, onDelete }) {
   const [showIngredients, setShowIngredients] = useState(false);
+
+  const handleDelete = () => {
+    onDelete(id);
+  };
 
   return (
     <div className="card">
@@ -11,6 +15,7 @@ function CocktailCard({ id, name, ingredients, image }) {
       <button onClick={() => setShowIngredients(!showIngredients)}>
         {showIngredients ? 'Hide Ingredients' : 'Show Ingredients'}
       </button>
+      <button onClick={handleDelete}>Delete</button>
       {showIngredients && (
         <div>
           <p>Ingredients: {ingredients.join(', ')}</p>
@@ -31,6 +36,21 @@ export function CocktailDetails() {
       .catch(error => console.log(error));
   }, [id]);
 
+  const handleDelete = (id) => {
+    fetch(`http://localhost:3000/cocktails/${id}`, {
+      method: 'DELETE'
+    })
+    .then(response => {
+      if (response.ok) {
+        // Remove the deleted cocktail from the UI or perform any necessary update
+        console.log('Cocktail deleted successfully');
+      } else {
+        console.error('Failed to delete cocktail');
+      }
+    })
+    .catch(error => console.error('Error deleting cocktail:', error));
+  };
+
   if (!cocktail) return <div>Loading...</div>;
 
   return (
@@ -38,6 +58,7 @@ export function CocktailDetails() {
       <h2>{cocktail.name}</h2>
       <img src={cocktail.image} alt={cocktail.name} />
       <p>Ingredients: {cocktail.ingredients.join(', ')}</p>
+      <button onClick={() => handleDelete(id)}>Delete</button>
     </div>
   );
 }
