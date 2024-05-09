@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
-
 function CocktailCard({ id, name, ingredients, image, onDelete }) {
   const [showIngredients, setShowIngredients] = useState(false);
 

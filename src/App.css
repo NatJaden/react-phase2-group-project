@@ -22,7 +22,6 @@ body {
   background-color: #51caba; /* Dark background color */
   padding: 10px; /* Add padding */
   height: 100vh;
-  position: fixed;
 }
 
 .nav-item {
@@ -96,28 +95,3 @@ body {
 .cocktail-card li {
   list-style-type: none;
 }
-.card {
-  background: rgb(69, 219, 179);
-  display: inline-grid;
-  padding: 10px;
-  text-align: center;
-  margin-left: 220px; 
-  margin-top: 10px;
-  width: 500px;
-  border-radius: 10px;
-  } 
-  .card img {
-    background: rgb(98, 214, 201);
-    display: inline-grid;
-    padding: 10px;
-    text-align: center;
-    margin-left: 50px; 
-    margin-top: 10px;
-    width: 400px;
-    border-radius: 10px;
-    }   
-
-    .Search-Bar{
-    margin-left: 300px; 
-    margin-top: 10px;
-    }
