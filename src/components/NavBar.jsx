@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaUser, FaCocktail, FaPlus } from 'react-icons/fa';
+import { FaHome, FaCocktail, FaPlus } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
@@ -22,7 +22,7 @@ function NavBar() {
     {
       path: '/instructions',
       name: 'Recipe/How to Make',
-      icon: <FaUser />,
+      icon: <FaCocktail />,
     },
     
   ];
