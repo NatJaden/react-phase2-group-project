@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
-import UserProfile from './pages/UserProfile';
+import Instructions from './pages/Instructions';
 import CocktailList from './pages/CocktailList';
 import AlcoholicVsNonAlcoholic from './pages/AlcoholicVsNonAlcoholic';
 
@@ -30,10 +30,10 @@ function App() {
     },
   
     {
-      path: '/profile',
+      path: '/instructions',
       element: (
           <div className="content">
-            <UserProfile />
+            <Instructions />
           </div>
       ),
     },

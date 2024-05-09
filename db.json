@@ -6,7 +6,8 @@
         "category": "Alcoholic",
         "garnish": "Lemon twist or olive",
         "image_url": "https://images.unsplash.com/photo-1590064275032-8bd62d46d008?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFydGluaXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Gin: 2 1/2 oz, Dry Vermouth: 1/2 oz"
+        "ingredients": "Gin: 2 1/2 oz, Dry Vermouth: 1/2 oz",
+        "instructions": "Stir gin and dry vermouth with ice, then strain into a chilled cocktail glass. Garnish with a lemon twist or olive."
       },
       {
         "id": "2",
@@ -14,7 +15,8 @@
         "category": "Alcoholic",
         "garnish": "Salt (optional), Lime wheel",
         "image_url": "https://images.unsplash.com/photo-1632987790465-2634b43c4289?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFyZ2FyaXRhfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Tequila: 2 oz, Lime Juice: 1 oz, Triple Sec: 1/2 oz"
+        "ingredients": "Tequila: 2 oz, Lime Juice: 1 oz, Triple Sec: 1/2 oz",
+        "instructions": "Shake tequila, lime juice, and triple sec with ice, then strain into a glass over ice. Optionally, rim the glass with salt. Garnish with a lime wheel."
       },
       {
         "id": "3",
@@ -22,7 +24,8 @@
         "category": "Alcoholic",
         "garnish": "Orange twist and/or cherry",
         "image_url": "https://images.unsplash.com/photo-1559374182-9bf5cad16851?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9sZCUyMGZhc2hpb25lZHxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Sugar Cube: 1, Angostura Bitters: 2-3 dashes"
+        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Sugar Cube: 1, Angostura Bitters: 2-3 dashes",
+        "instructions": "Muddle sugar cube with bitters in a glass, then add bourbon or rye whiskey and ice. Stir until well chilled. Garnish with an orange twist and/or cherry."
       },
       {
         "id": "4",
@@ -30,7 +33,8 @@
         "category": "Alcoholic",
         "garnish": "Mint sprig, Lime wedge",
         "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW9qaXRvfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "White Rum: 2 oz, Lime Juice: 1/2 oz, Simple Syrup: 1/2 oz, Fresh Mint Leaves: 6-8, Soda Water: To top"
+        "ingredients": "White Rum: 2 oz, Lime Juice: 1/2 oz, Simple Syrup: 1/2 oz, Fresh Mint Leaves: 6-8, Soda Water: To top",
+        "instructions": "Muddle mint leaves with lime juice and simple syrup in a glass. Add white rum and ice, then top with soda water. Stir gently and garnish with a mint sprig and lime wedge."
       },
       {
         "id": "5",
@@ -38,7 +42,8 @@
         "category": "Alcoholic",
         "garnish": "Orange twist",
         "image_url": "https://images.unsplash.com/photo-1626688445658-c948f32d68ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmVncm9uaXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Gin: 1 oz, Campari: 1 oz, Sweet Vermouth: 1 oz"
+        "ingredients": "Gin: 1 oz, Campari: 1 oz, Sweet Vermouth: 1 oz",
+        "instructions": "Stir gin, Campari, and sweet vermouth with ice, then strain into a glass over ice. Garnish with an orange twist."
       },
       {
         "id": "6",
@@ -46,7 +51,8 @@
         "category": "Alcoholic",
         "garnish": "Lime twist",
         "image_url": "https://images.unsplash.com/photo-1632987788901-0c090e5f4eaf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvc21vcG9saXRhbiUyMGNvY2t0YWlsfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Vodka: 1 1/2 oz, Cranberry Juice: 1 oz, Triple Sec: 1/2 oz, Lime Juice: 1/2 oz"
+        "ingredients": "Vodka: 1 1/2 oz, Cranberry Juice: 1 oz, Triple Sec: 1/2 oz, Lime Juice: 1/2 oz",
+        "instructions": "Shake vodka, cranberry juice, triple sec, and lime juice with ice, then strain into a chilled cocktail glass. Garnish with a lime twist."
       },
       {
         "id": "7",
@@ -54,7 +60,8 @@
         "category": "Alcoholic",
         "garnish": "Lime wheel",
         "image_url": "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGFxdWlyaSUyMGNvY2t0YWlsfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "White Rum: 2 oz, Lime Juice: 3/4 oz, Simple Syrup: 1/2 oz"
+        "ingredients": "White Rum: 2 oz, Lime Juice: 3/4 oz, Simple Syrup: 1/2 oz",
+        "instructions": "Shake white rum, lime juice, and simple syrup with ice, then strain into a chilled cocktail glass. Garnish with a lime wheel."
       },
       {
         "id": "8",
@@ -62,7 +69,8 @@
         "category": "Alcoholic",
         "garnish": "Pineapple wedge, cherry",
         "image_url": "https://images.unsplash.com/photo-1617728273800-1e615ab03037?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGluYV9jb2xhZGF8ZW58MHwxfDB8fHwy",
-        "ingredients": "White Rum: 2 oz, Pineapple Juice: 3 oz, Coconut Cream: 1 oz"
+        "ingredients": "White Rum: 2 oz, Pineapple Juice: 3 oz, Coconut Cream: 1 oz",
+        "instructions": "Blend white rum, pineapple juice, and coconut cream with crushed ice until smooth. Pour into a glass and garnish with a pineapple wedge and cherry."
       },
       {
         "id": "9",
@@ -70,7 +78,8 @@
         "category": "Alcoholic",
         "garnish": "Lemon wheel, cherry",
         "image_url": "https://images.unsplash.com/photo-1624528199921-838223305357?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2hpc2tleSUyMHNvdXJ8ZW58MHwxfDB8fHwy",
-        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Lemon Juice: 3/4 oz, Simple Syrup: 1/2 oz"
+        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Lemon Juice: 3/4 oz, Simple Syrup: 1/2 oz",
+        "instructions": "Shake bourbon or rye whiskey, lemon juice, and simple syrup with ice, then strain into a glass over ice. Garnish with a lemon wheel and cherry."
       },
       {
         "id": "10",
@@ -78,7 +87,8 @@
         "category": "Alcoholic",
         "garnish": "Lime wedge",
         "image_url": "https://images.unsplash.com/photo-1644809818228-e29aa5aa8151?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2FpcGlyaW5oYXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Cachaça: 2 oz, Lime: 1/2, Sugar: 2 teaspoons"
+        "ingredients": "Cachaça: 2 oz, Lime: 1/2, Sugar: 2 teaspoons",
+        "instructions": "Muddle lime wedges with sugar in a glass, then add cachaça and ice. Stir gently and garnish with a lime wedge."
       },
       {
         "id": "11",
@@ -86,7 +96,8 @@
         "category": "Alcoholic",
         "garnish": "Lime wedge or cucumber slice",
         "image_url": "https://images.unsplash.com/photo-1563630440878-c25af103219a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z2luJTIwYW5kJTIwdG9uaWN8ZW58MHwxfDB8fHwy",
-        "ingredients": "Gin: 2 oz, Tonic Water: 4 oz"
+        "ingredients": "Gin: 2 oz, Tonic Water: 4 oz",
+        "instructions": "Pour gin and tonic water into a glass over ice. Stir gently and garnish with a lime wedge or cucumber slice."
       },
       {
         "id": "12",
@@ -94,7 +105,8 @@
         "category": "Alcoholic",
         "garnish": "Cherry",
         "image_url": "https://images.unsplash.com/photo-1641074119761-6d9f1187ee5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbmhhdHRhbiUyMGNvY2t0YWlsfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Sweet Vermouth: 1 oz, Angostura Bitters: 2 dashes"
+        "ingredients": "Bourbon or Rye Whiskey: 2 oz, Sweet Vermouth: 1 oz, Angostura Bitters: 2 dashes",
+        "instructions": "Stir bourbon or rye whiskey, sweet vermouth, and bitters with ice, then strain into a chilled cocktail glass. Garnish with a cherry."
       },
       {
         "id": "13",
@@ -102,7 +114,8 @@
         "category": "Alcoholic",
         "garnish": "Lime wedge",
         "image_url": "https://images.unsplash.com/photo-1497534446932-c925b458314e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG1vc2NvdyUyMG11bGUlMjBjb2NrdGFpbHxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Vodka: 2 oz, Ginger Beer: 4 oz, Lime Juice: 1/2 oz"
+        "ingredients": "Vodka: 2 oz, Ginger Beer: 4 oz, Lime Juice: 1/2 oz",
+        "instructions": "Pour vodka and lime juice into a glass filled with ice. Top with ginger beer and stir gently. Garnish with a lime wedge."
       },
       {
         "id": "14",
@@ -110,7 +123,8 @@
         "category": "Alcoholic",
         "garnish": "Celery stalk, Lemon wedge, Olive (optional)",
         "image_url": "https://images.unsplash.com/photo-1448832328263-620a1a483228?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymxvb2R5JTIwbWFyeSUyMGNvY2t0YWlsfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Vodka: 1 1/2 oz, Tomato Juice: 3 oz, Lemon Juice: 1/2 oz, Worcestershire Sauce: 2 dashes, Tabasco Sauce: 2 dashes"
+        "ingredients": "Vodka: 1 1/2 oz, Tomato Juice: 3 oz, Lemon Juice: 1/2 oz, Worcestershire Sauce: 2 dashes, Tabasco Sauce: 2 dashes",
+        "instructions": "Build vodka, tomato juice, lemon juice, Worcestershire sauce, and Tabasco sauce in a glass over ice. Stir well and garnish with a celery stalk, lemon wedge, and olive."
       },
       {
         "id": "15",
@@ -118,7 +132,8 @@
         "category": "Alcoholic",
         "garnish": "Pineapple slice, Cherry",
         "image_url": "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNpbmdhcG9yZSUyMHNsaW5nJTIwY29ja3RhaWx8ZW58MHwxfDB8fHwy",
-        "ingredients": "Gin: 1 1/2 oz, Cherry Liqueur: 1/2 oz, Cointreau: 1/4 oz, Benedictine: 1/4 oz, Grenadine: 1/2 oz, Pineapple Juice: 2 oz, Lime Juice: 3/4 oz, Angostura Bitters: 2 dashes, Soda Water: To top"
+        "ingredients": "Gin: 1 1/2 oz, Cherry Liqueur: 1/2 oz, Cointreau: 1/4 oz, Benedictine: 1/4 oz, Grenadine: 1/2 oz, Pineapple Juice: 2 oz, Lime Juice: 3/4 oz, Angostura Bitters: 2 dashes, Soda Water: To top",
+        "instructions": "Shake gin, cherry liqueur, Cointreau, Benedictine, grenadine, lime juice, and bitters with ice, then strain into a glass over ice. Top with soda water and garnish with a pineapple slice and cherry."
       },
       {
         "id": "16",
@@ -126,7 +141,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Mint sprig, Lime wedge",
         "image_url": "https://images.unsplash.com/photo-1652934380097-d735aee9d992?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmlyZ2luJTIwbW9qaXRvJTIwY29ja3RhaWx8ZW58MHwxfDB8fHwy",
-        "ingredients": "Lime Juice: 1 oz, Simple Syrup: 3/4 oz, Mint Leaves: 6-8, Soda Water: To top"
+        "ingredients": "Lime Juice: 1 oz, Simple Syrup: 3/4 oz, Mint Leaves: 6-8, Soda Water: To top",
+        "instructions": "Muddle mint leaves with lime juice and simple syrup in a glass. Add ice and top with soda water. Stir gently and garnish with a mint sprig and lime wedge."
       },
       {
         "id": "17",
@@ -134,7 +150,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Pineapple wedge, cherry",
         "image_url": "https://images.unsplash.com/photo-1681102523359-2cb988cbb37d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmlyZ2luJTIwcGluYSUyMGNvbGFkYXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Pineapple Juice: 3 oz, Coconut Cream: 3 oz, Pineapple chunks: 1/4 cup, Crushed Ice: 1 cup"
+        "ingredients": "Pineapple Juice: 3 oz, Coconut Cream: 3 oz, Pineapple chunks: 1/4 cup, Crushed Ice: 1 cup",
+        "instructions": "Blend pineapple juice, coconut cream, pineapple chunks, and crushed ice until smooth. Pour into a glass and garnish with a pineapple wedge and cherry."
       },
       {
         "id": "18",
@@ -142,7 +159,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Maraschino Cherry",
         "image_url": "https://images.unsplash.com/photo-1500217052183-bc01eee1a74e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHNoaXJsZXklMjB0ZW1wbGUlMjBjb2NrdGFpbHxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Ginger Ale: 6 oz, Grenadine: 1/2 oz, Maraschino Cherry: 1"
+        "ingredients": "Ginger Ale: 6 oz, Grenadine: 1/2 oz, Maraschino Cherry: 1",
+        "instructions": "Pour ginger ale and grenadine into a glass over ice. Stir gently and garnish with a maraschino cherry."
       },
       {
         "id": "19",
@@ -150,7 +168,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Celery stalk, Lemon wedge, Olive (optional)",
         "image_url": "https://images.unsplash.com/photo-1527761939622-9119094630cf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dmlyZ2luJTIwbWFyeSUyMGNvY2t0YWlsfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Tomato Juice: 5 oz, Lemon Juice: 1/2 oz, Worcestershire Sauce: 2 dashes, Tabasco Sauce: 2 dashes, Salt: Pinch, Black Pepper: Pinch"
+        "ingredients": "Tomato Juice: 5 oz, Lemon Juice: 1/2 oz, Worcestershire Sauce: 2 dashes, Tabasco Sauce: 2 dashes, Salt: Pinch, Black Pepper: Pinch",
+        "instructions": "Build tomato juice, lemon juice, Worcestershire sauce, Tabasco sauce, salt, and black pepper in a glass over ice. Stir well and garnish with a celery stalk, lemon wedge, and olive."
       },
       {
         "id": "20",
@@ -158,7 +177,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Orange slice, Lemon slice, Apple slice, Cinnamon stick",
         "image_url": "https://images.unsplash.com/photo-1639021111057-a8b620d46f63?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2FuZ3JpYXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Red Grape Juice: 2 cups, Orange Juice: 1 cup, Lemon Juice: 1/4 cup, Apple Juice: 1/4 cup, Orange: 1, Lemon: 1, Apple: 1, Cinnamon Sticks: 2-3"
+        "ingredients": "Red Grape Juice: 2 cups, Orange Juice: 1 cup, Lemon Juice: 1/4 cup, Apple Juice: 1/4 cup, Orange: 1, Lemon: 1, Apple: 1, Cinnamon Sticks: 2-3",
+        "instructions": "Mix red grape juice, orange juice, lemon juice, apple juice, orange slices, lemon slices, apple slices, and cinnamon sticks in a pitcher. Chill for at least an hour before serving."
       },
       {
         "id": "21",
@@ -166,7 +186,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Orange slice, Lemon slice, Maraschino Cherry",
         "image_url": "https://images.unsplash.com/photo-1626160200749-fbcbf5d7c456?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJ1aXQlMjBwdW5jaHxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Orange Juice: 2 cups, Pineapple Juice: 1 cup, Cranberry Juice: 1 cup, Lemon Juice: 1/4 cup, Simple Syrup: 1/4 cup, Maraschino Cherry: 6-8, Orange: 1, Lemon: 1"
+        "ingredients": "Orange Juice: 2 cups, Pineapple Juice: 1 cup, Cranberry Juice: 1 cup, Lemon Juice: 1/4 cup, Simple Syrup: 1/4 cup, Maraschino Cherry: 6-8, Orange: 1, Lemon: 1",
+        "instructions": "Mix orange juice, pineapple juice, cranberry juice, lemon juice, simple syrup, and maraschino cherries in a pitcher. Add orange slices and lemon slices. Chill before serving."
       },
       {
         "id": "22",
@@ -174,7 +195,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Watermelon wedge, Lemon slice, Mint leaves",
         "image_url": "https://images.unsplash.com/photo-1563118021-02ab5f4f508f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdhdGVybWVsb24lMjBsZW1vbmFkZXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Watermelon Juice: 2 cups, Lemon Juice: 1 cup, Sugar: 1/2 cup, Water: 2 cups, Lemon: 1, Watermelon Wedges: For garnish, Mint Leaves: For garnish"
+        "ingredients": "Watermelon Juice: 2 cups, Lemon Juice: 1 cup, Sugar: 1/2 cup, Water: 2 cups, Lemon: 1, Watermelon Wedges: For garnish, Mint Leaves: For garnish",
+        "instructions": "Blend watermelon juice, lemon juice, sugar, and water until smooth. Serve over ice and garnish with watermelon wedges and mint leaves."
       },
       {
         "id": "23",
@@ -182,7 +204,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Cucumber slice, Lime wedge",
         "image_url": "https://images.unsplash.com/photo-1630946079671-477b5fead424?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGN1Y3VtYmVyJTIwY29vbGVyfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Cucumber Juice: 2 cups, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Soda Water: 2 cups, Cucumber slices: For garnish, Lime wedges: For garnish"
+        "ingredients": "Cucumber Juice: 2 cups, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Soda Water: 2 cups, Cucumber slices: For garnish, Lime wedges: For garnish",
+        "instructions": "Mix cucumber juice, lime juice, simple syrup, and soda water in a pitcher. Serve over ice and garnish with cucumber slices and lime wedges."
       },
       {
         "id": "24",
@@ -190,7 +213,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Lemon slice, Mint sprig",
         "image_url": "https://images.unsplash.com/photo-1618834397342-98b0b75ba674?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJub2xkJTIwcGFsbWVyfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Iced Tea: 1 1/2 cups, Lemonade: 1 1/2 cups, Lemon slices: For garnish, Mint sprigs: For garnish"
+        "ingredients": "Iced Tea: 1 1/2 cups, Lemonade: 1 1/2 cups, Lemon slices: For garnish, Mint sprigs: For garnish",
+        "instructions": "Mix iced tea and lemonade in a pitcher. Serve over ice and garnish with lemon slices and mint sprigs."
       },
       {
         "id": "25",
@@ -198,7 +222,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Lemon slice",
         "image_url": "https://images.unsplash.com/photo-1583064313642-a7c149480c7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVtb25hZGV8ZW58MHwxfDB8fHwy",
-        "ingredients": "Lemon Juice: 1 oz, Simple Syrup: 3/4 oz, Water: 6 oz, Ice: To serve"
+        "ingredients": "Lemon Juice: 1 oz, Simple Syrup: 3/4 oz, Water: 6 oz, Ice: To serve",
+        "instructions": "Mix lemon juice, simple syrup, and water in a pitcher. Serve over ice and garnish with a lemon slice."
       },
       {
         "id": "26",
@@ -206,7 +231,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Strawberry, Lemon slice",
         "image_url": "https://images.unsplash.com/photo-1560351520-48e05f3d7d16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3RyYXdiZXJyeSUyMGxlbW9uYWRlfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Lemon Juice: 1 oz, Strawberry Puree: 1 oz, Simple Syrup: 3/4 oz, Water: 6 oz, Ice: To serve"
+        "ingredients": "Lemon Juice: 1 oz, Strawberry Puree: 1 oz, Simple Syrup: 3/4 oz, Water: 6 oz, Ice: To serve",
+        "instructions": "Mix lemon juice, strawberry puree, simple syrup, and water in a pitcher. Serve over ice and garnish with a strawberry and lemon slice."
       },
       {
         "id": "27",
@@ -214,7 +240,8 @@
         "category": "Non-Alcoholic",
         "garnish": "None",
         "image_url": "https://images.unsplash.com/photo-1583898350727-9bf2e476c242?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXRhbGlhbiUyMHNvZGF8ZW58MHwxfDB8fHwy",
-        "ingredients": "Club Soda: 6 oz, Flavored Syrup: 2 oz, Half-and-Half: 1 oz"
+        "ingredients": "Club Soda: 6 oz, Flavored Syrup: 2 oz, Half-and-Half: 1 oz",
+        "instructions": "Mix club soda, flavored syrup, and half-and-half in a glass over ice. Stir gently."
       },
       {
         "id": "28",
@@ -222,7 +249,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Mixed berries",
         "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVycnklMjBzbW9vdGhpZXxlbnwwfDF8MHx8fDI%3D",
-        "ingredients": "Mixed Berries: 1 cup, Banana: 1, Yogurt: 1/2 cup, Milk: 1/2 cup, Honey: 1-2 tablespoons"
+        "ingredients": "Mixed Berries: 1 cup, Banana: 1, Yogurt: 1/2 cup, Milk: 1/2 cup, Honey: 1-2 tablespoons",
+        "instructions": "Blend mixed berries, banana, yogurt, milk, and honey until smooth. Serve immediately and garnish with mixed berries."
       },
       {
         "id": "29",
@@ -230,7 +258,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Strawberry",
         "image_url": "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VmlyZ2luJTIwU3RyYXdiZXJyeSUyMERhaXF1aXJpfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Strawberries: 1 1/2 cups, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Ice: 2 cups"
+        "ingredients": "Strawberries: 1 1/2 cups, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Ice: 2 cups",
+        "instructions": "Blend strawberries, lime juice, simple syrup, and ice until smooth. Serve immediately and garnish with a strawberry."
       },
       {
         "id": "30",
@@ -238,7 +267,8 @@
         "category": "Non-Alcoholic",
         "garnish": "Watermelon slice, Mint sprig",
         "image_url": "https://images.unsplash.com/photo-1548849956-8aa872cefb93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Q29jb251dCUyMGRyaW5rfGVufDB8MXwwfHx8Mg%3D%3D",
-        "ingredients": "Watermelon Juice: 2 cups, Coconut Water: 1 cup, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Ice: 2 cups, Watermelon Slices: For garnish, Mint Sprigs: For garnish"
+        "ingredients": "Watermelon Juice: 2 cups, Coconut Water: 1 cup, Lime Juice: 1/4 cup, Simple Syrup: 1/4 cup, Ice: 2 cups, Watermelon Slices: For garnish, Mint Sprigs: For garnish",
+        "instructions": "Blend watermelon juice, coconut water, lime juice, simple syrup, and ice until smooth. Serve immediately and garnish with watermelon slice and mint sprig."
       }
     ]
   }

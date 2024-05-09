@@ -10,11 +10,6 @@ function NavBar() {
       icon: <FaHome />,
     },
     {
-      path: '/profile',
-      name: 'Profile',
-      icon: <FaUser />,
-    },
-    {
       path: '/cocktail',
       name: 'Cocktail List',
       icon: <FaCocktail />,
@@ -23,6 +18,11 @@ function NavBar() {
       path: '/type',
       name: 'Alcoholic vs Non-Alcoholic',
       icon: <FaCocktail />,
+    },
+    {
+      path: '/instructions',
+      name: 'Recipe/How to Make',
+      icon: <FaUser />,
     },
     
   ];
