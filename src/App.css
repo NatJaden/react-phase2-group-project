@@ -19,10 +19,9 @@ body {
 .navbar {
   display: flex;
   flex-direction: column; /* Arrange items in a column */
-  background-color: #51caba; /* Dark background color */
+  background-color: #6e9c95; /* Dark background color */
   padding: 10px; /* Add padding */
   height: 100vh;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -67,23 +66,41 @@ body {
   font-weight: bold;
 }
 
+.links {
+  display: flex;
+  flex-direction: column; /* Arrange links vertically */
+  gap: 1rem; /* To add space between each link */
+}
+
+.links a {
+  text-decoration: none;
+  color: #333; /* Example color, you can adjust as needed */
+}
+
+.links a.active {
+  color: #ffc107; /* Example color for active link, you can adjust as needed */
+}
 /* HomePage.css */
 
 .home-page {
   text-align: center; /* Center align content */
   padding: 0; /* Reset padding */
   margin: 0; /* Reset margin */
-  background-color: #6e9c95; /* Light background color */
-  color: #333; /* Text color */
+  background-color: black; /* Light background color */
+  color: white; /* Text color */
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  
+  background-image: url("/two-glasses-cocktails-with-straw-copy-space.png");
+  background-position: center;
 }
 
 .home-page h1 {
+  margin-top: 20px;
   font-size: 36px; /* Increase font size for heading */
   /* margin-bottom: 20px; /* Add spacing below heading */
+ 
 } 
 
 .home-page p {

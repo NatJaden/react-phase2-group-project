@@ -29,7 +29,8 @@ function NavBar() {
 
   return (
     <div className="navbar">
-      <h1>Navbar</h1>
+      <h1>Lets Explore!</h1>
+      <div className='links'>
       {itemList.map((item, index) => (
         <NavLink key={index} to={item.path} activeclassname="active">
           <div>
@@ -37,7 +38,7 @@ function NavBar() {
             <span>{item.name}</span>
           </div>
         </NavLink>
-      ))}
+      ))}</div>
     </div>
   );
 }
