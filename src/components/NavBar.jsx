@@ -20,17 +20,18 @@ function NavBar() {
       icon: <FaCocktail />,
     },
     {
-      path: '/create',
-      name: 'Create Cocktail',
-      icon: <FaPlus />,
+      path: '/type',
+      name: 'Alcoholic vs Non-Alcoholic',
+      icon: <FaCocktail />,
     },
+    
   ];
 
   return (
     <div className="navbar">
       <h1>Navbar</h1>
       {itemList.map((item, index) => (
-        <NavLink key={index} to={item.path} activeClassName="active">
+        <NavLink key={index} to={item.path} activeclassname="active">
           <div>
             {item.icon}
             <span>{item.name}</span>
