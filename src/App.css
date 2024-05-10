@@ -249,3 +249,40 @@ body {
   z-index: 1;
 
 }
+
+.description {
+  margin-bottom: 20px;
+  font-size: 18px;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  animation: typing 3s steps(40, end); /* Adjust duration and steps as needed */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.animated-text {
+  font-size: 24px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffc107; 
+  bottom: -5px;
+  left: 0;
+  animation: blink 1s infinite; 
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
