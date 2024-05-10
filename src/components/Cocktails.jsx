@@ -58,7 +58,7 @@ function Cocktails() {
             <p>Garnish: {cocktail.garnish}</p>
             <p>Ingredients: {cocktail.ingredients}</p>
             {/* Button to delete the cocktail */}
-            <button onClick={() => handleDelete(cocktail.id)}>Delete</button>
+            <button className="delete" onClick={() => handleDelete(cocktail.id)}>Delete</button>
           </div>
         ))}
       </div>
