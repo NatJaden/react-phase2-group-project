@@ -8,6 +8,7 @@ function CreateCocktailForm() {
     category: "",
     garnish: "",
     ingredients: "",
+    instructions:"",
   });
   // created a function to handle changes in the form inputs
   const handleChange = (e) => {
@@ -44,6 +45,7 @@ function CreateCocktailForm() {
           category: "",
           garnish: "",
           ingredients: "",
+          instructions:"",
         });
       })
       .catch((error) => console.error("Error:", error.message));
@@ -101,6 +103,16 @@ function CreateCocktailForm() {
             type="text"
             name="ingredients"
             value={cocktailData.ingredients}
+            onChange={handleChange}
+          />
+        </label>
+        <label className="form-label">
+          Instructions:
+          <input
+            className="form-input"
+            type="text"
+            name="instructions"
+            value={cocktailData.instructions}
             onChange={handleChange}
           />
         </label>
