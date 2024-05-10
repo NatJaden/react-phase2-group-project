@@ -83,6 +83,7 @@ function Instructions() {
               <div>
                 <p>{cocktail.instructions}</p>
                 <button
+                  className="edit"
                   onClick={() =>
                     handleEditInstructions(cocktail.id, cocktail.instructions)
                   }
