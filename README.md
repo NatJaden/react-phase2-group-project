@@ -105,7 +105,7 @@ Github
 
 ## Live Link
 
-[Deployment](react-phase2-group-project.vercel.app)
+[Deployment](https://react-phase2-group-project.vercel.app/)
 
 ## Support and contact details
 
