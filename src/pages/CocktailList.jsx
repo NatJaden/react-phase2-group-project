@@ -1,14 +1,13 @@
-import React from 'react'
-import Cocktails from '../components/Cocktails'
-import CreateCocktailForm from '../components/CreateCocktailForm' 
+import Cocktails from "../components/Cocktails";
+import CreateCocktailForm from "../components/CreateCocktailForm";
 
 function CocktailList() {
   return (
     <div>
-      <CreateCocktailForm/>
-        <Cocktails/>
+      <CreateCocktailForm />
+      <Cocktails />
     </div>
-  )
+  );
 }
 
-export default CocktailList
+export default CocktailList;

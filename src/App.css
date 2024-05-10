@@ -1,9 +1,7 @@
-/* App.css */
-
 body {
   margin: 0;
   padding: 0;
-  background-color: #6e9c95
+  background-color: #6e9c95;
 }
 
 .dashboard {
@@ -18,9 +16,9 @@ body {
 
 .navbar {
   display: flex;
-  flex-direction: column; /* Arrange items in a column */
-  background-color: #6e9c95; /* Dark background color */
-  padding: 10px; /* Add padding */
+  flex-direction: column;
+  background-color: #6e9c95;
+  padding: 10px;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,16 +26,16 @@ body {
 .nav-item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px; /* Add spacing between items */
-  color: #fff; /* Text color */
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .nav-item span {
-  margin-left: 5px; /* Add spacing between icon and text */
+  margin-left: 5px;
 }
 
 .nav-item.active {
-  color: #ffc107; /* Change text color for active NavLink */
+  color: #ffc107;
 }
 
 .navbar h1 {
@@ -48,7 +46,7 @@ body {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  margin-left: 10px; /* Adjust the margin here */
+  margin-left: 10px;
   display: flex;
   align-items: center;
 }
@@ -68,43 +66,41 @@ body {
 
 .links {
   display: flex;
-  flex-direction: column; /* Arrange links vertically */
-  gap: 1rem; /* To add space between each link */
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .links a {
   text-decoration: none;
-  color: #333; /* Example color, you can adjust as needed */
+  color: #333;
 }
 
 .links a.active {
-  color: #ffc107; /* Example color for active link, you can adjust as needed */
+  color: #ffc107;
 }
 /* HomePage.css */
 
 .home-page {
-  text-align: center; /* Center align content */
-  padding: 0; /* Reset padding */
-  margin: 0; /* Reset margin */
-  background-color: black; /* Light background color */
-  color: white; /* Text color */
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  
-  background-image: url("/two-glasses-cocktails-with-straw-copy-space.png");
+
+  background-image: url("/Background.png");
   background-position: center;
 }
 
 .home-page h1 {
   margin-top: 20px;
-  font-size: 36px; /* Increase font size for heading */
-  /* margin-bottom: 20px; /* Add spacing below heading */
- 
-} 
+  font-size: 36px;
+}
 
 .home-page p {
-  font-size: 18px; /* Increase font size for paragraph */
+  font-size: 18px;
 }
 
 .cocktail-grid {
@@ -141,13 +137,12 @@ body {
   list-style-type: none;
 }
 
-
 /* CreateCocktailForm.css */
 .form-container {
   background-color: #fff;
-  padding: 10px; /* Decrease padding */
-  border-radius: 4px; /* Smaller border radius */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow */
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   margin-top: 20px;
   align-items: center;
@@ -167,18 +162,18 @@ body {
   }
 }
 
-/* Apply animation to form input fields */
+/* Applying animation to form input fields */
 .form-input {
-  width: calc(100% - 10px); /* Adjust input width */
-  padding: 6px; /* Decrease padding */
-  margin-bottom: 8px; /* Decrease margin */
+  width: calc(100% - 10px);
+  padding: 6px;
+  margin-bottom: 8px;
   border: 1px solid #ccc;
-  border-radius: 3px; /* Smaller border radius */
-  font-size: 12px; /* Smaller font size */
+  border-radius: 3px;
+  font-size: 12px;
 
-  /* Applies animation properties */
+  /* Applying animation properties */
   animation: borderAnimation 3s infinite;
-  transition: border-color 0.3s ease-in-out; /* Add transition for smooth change */
+  transition: border-color 0.3s ease-in-out;
 }
 
 .form-input:focus {
@@ -187,26 +182,25 @@ body {
 }
 
 .form-title {
-  font-size: 18px; /* Smaller font size */
-  margin-bottom: 10px; /* Decrease margin */
+  font-size: 18px;
+  margin-bottom: 10px;
   color: #333;
 }
 
 .form-label {
   display: block;
-  margin-bottom: 6px; /* Decrease margin */
+  margin-bottom: 6px;
   color: #333;
 }
 
-
 .form-button {
-  width: calc(100% - 20px); /* Adjust button width */
-  padding: 8px; /* Decrease padding */
+  width: calc(100% - 20px);
+  padding: 8px;
   background-color: #51caba;
   border: none;
-  border-radius: 3px; /* Smaller border radius */
+  border-radius: 3px;
   color: #fff;
-  font-size: 12px; /* Smaller font size */
+  font-size: 12px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-left: 11px;
@@ -224,7 +218,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-
 }
 
 .search-bar input {

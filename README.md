@@ -1,4 +1,5 @@
 # COCKTAIL BROWSER APP
+
 This web application provides a platform for cocktail enthusiasts to explore, manage, and share their favorite cocktail recipes. Whether you're a seasoned mixologist or just getting started with home bartending, this app offers a comprehensive collection of cocktail recipes with detailed instructions for each drink.
 
 #### Date, 06/05/2024
@@ -6,6 +7,7 @@ This web application provides a platform for cocktail enthusiasts to explore, ma
 #### By Nathaniel, Caren, Matthew and Eugene
 
 ## Features
+
 **Browse Cocktail Collection: Users can browse through a curated collection of cocktail recipes, organized for easy navigation.
 **View Instructions: Detailed instructions for each cocktail are provided, including ingredients, measurements, mixing techniques, and garnishes.
 **Edit Instructions: Users have the ability to edit the instructions for individual cocktails, allowing them to customize recipes to their taste preferences or share their variations with the community.
@@ -13,6 +15,7 @@ This web application provides a platform for cocktail enthusiasts to explore, ma
 **Delete Cocktails: For administrators or users with editing privileges, there's an option to remove cocktails from the collection.
 
 ## Components
+
 # Navbar:
 
 Naviagte to various features on the page
@@ -87,10 +90,13 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ```
 npm run dev
 ```
+
 ### Installation instruction
+
 ```
 Git clone https://github.com/NatJaden/react-phase2-group-project.git
 ```
+
 ## Technologies used
 
 React
@@ -98,12 +104,14 @@ CSS
 Github
 
 ## Live Link
+
 [Deployment](react-phase2-group-project.vercel.app)
 
 ## Support and contact details
+
 github.com/NatJaden
 
 ### License
+
 The content of this site is licensed under the MIT license
 Copyright (c) 2024.
-

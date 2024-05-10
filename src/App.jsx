@@ -1,16 +1,17 @@
-import React from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './App.css';
-import NavBar from './components/NavBar';
-import HomePage from './pages/HomePage';
-import Instructions from './pages/Instructions';
-import CocktailList from './pages/CocktailList';
-import AlcoholicVsNonAlcoholic from './pages/AlcoholicVsNonAlcoholic';
+import React from "react";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import HomePage from "./pages/HomePage";
+import Instructions from "./pages/Instructions";
+import CocktailList from "./pages/CocktailList";
+import AlcoholicVsNonAlcoholic from "./pages/AlcoholicVsNonAlcoholic";
 
 function App() {
+  // Created router with defined routes
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: "/",
       element: (
         <div className="dashboard">
           <NavBar />
@@ -21,32 +22,32 @@ function App() {
       ),
     },
     {
-      path: '/cocktail',
+      path: "/cocktail",
       element: (
-          <div className="content">
-            <CocktailList />
-          </div>
+        <div className="content">
+          <CocktailList />
+        </div>
       ),
     },
-  
+
     {
-      path: '/instructions',
+      path: "/instructions",
       element: (
-          <div className="content">
-            <Instructions />
-          </div>
+        <div className="content">
+          <Instructions />
+        </div>
       ),
     },
     {
-      path: '/type',
+      path: "/type",
       element: (
-          <div className="content">
-            <AlcoholicVsNonAlcoholic />
-          </div>
+        <div className="content">
+          <AlcoholicVsNonAlcoholic />
+        </div>
       ),
     },
   ]);
-
+  // Rendering RouterProvider with the created router
   return <RouterProvider router={router} />;
 }
 
